@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+    container_name: frontend
+    depends_on:
+      - backend
+    networks:
+      - vite-mern-post-app
+ 
+  backend:
+    build:
+      context: ./backend
+    container_name: backend
+    restart: always
+    networks:
+      - vite-mern-post-app
+
+networks:
+  vite-mern-post-app:
+    driver: bridge
