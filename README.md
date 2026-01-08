@@ -2,7 +2,7 @@
 
 ---
 
-[Latest live demo]("https://frontend-staging-c7dd.up.railway.app/Signup")
+[Latest live demo]("https://frontend-staging-c7dd.up.railway.app/Signup/")
 
 ## Technologies & Tools:
 
