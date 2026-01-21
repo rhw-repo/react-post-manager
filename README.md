@@ -10,7 +10,7 @@
 
 - React (Vite)
 - react-router-dom
-- React Table v7 (Tanstack in JavaScript)
+- React Table v7 ('Tanstack Table' in JavaScript)
 - DOM Purify
 - styled-components
 - react-toastify, react-date-range, react-tooltips, react-select
@@ -20,15 +20,33 @@
 - Node.js
 - Express (Sessions, Validator, Helmet, CORS)
 - Database: MongoDB with Mongoose schema
-  **Dev & Ops:**
+
+**Dev & Ops:**
+
 - Docker & Docker-Compose
 - Git & GitHub
 - ESLint, Prettier, Postman
-  **Design:**
+
+**Design:**
+
 - Early prototypes in Figma
 - Code samples from Create React App migrated to Vite
 
-**Client:**
+## Sample of Challenges
+
+- Styling library components required styled-components instead of conventional CSS.
+- Connecting library components from different libraries to work together. Worked with a frontend mentor to filter the react-table (Tanstack Table v7) dashboard with a react-select component.
+- Creating secure authorisation for login, signup and routes to replace temporary proxy with JWTs sent to local storage in dev phase.
+- Research & implementation server side session authorisation with cookies.
+- Researching why nginx reverse proxy was not working as expected in deployment and Railway.com's automatic containerization
+- Fixing unexpected bugs found after deployment in code which ran in local development.
+- Updating packages after deployment. Research on various CSVs.
+- Updating server side code to handle increasing opt ins to blocking of 3rd party cookies affecting authorization for routes
+- Iterating on CSS and layout to improve UX - for example, users could not see all of the text in tags. Implemented both react-tooltips and responsive design solutions to display all of tag text.
+
+---
+
+## Client:
 
 Financial products, small marketing team. Requested demo for potential feedback on functionality and additional features.
 
